@@ -233,7 +233,7 @@ namespace EUCModule
             await RefreshTokenIfExpired(userId);
 
             var path = Path.Combine(Path.GetFullPath(
-                        Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "..", "..")), "TA_Helper.exe");
+                        Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), "..")), "TA_Helper.exe");
 
             Console.WriteLine(path);
 
